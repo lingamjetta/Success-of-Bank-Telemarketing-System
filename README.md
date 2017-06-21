@@ -203,8 +203,6 @@ Recall=0.78
 [1] 0.3643617
 p=0.38
 #F1_score=2*(0.78*0.36)/(0.78+0.36)
-F1_Score=0.48
-##Conclussion
-F1-score of normal model is only 0.40, but balanced data f1_score was 0.48 iit improved 
-Thank you.
-
+-> F1_Score=0.48
+## Conclussion
+-> F1-score of normal model is only 0.40, but balanced data f1_score was 0.48 iit improved
