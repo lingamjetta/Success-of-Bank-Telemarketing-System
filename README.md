@@ -66,4 +66,5 @@ campaign   83.957178
 pdays       0.000000
 previous    0.000000
 poutcome    0.000000
-> varImpPlot(model_ran)
+-> varImpPlot(model_ran)
+![rplot](https://user-images.githubusercontent.com/24644939/27388089-296c85ce-56b8-11e7-9abb-09138725a9db.png)
