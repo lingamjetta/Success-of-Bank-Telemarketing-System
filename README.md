@@ -68,3 +68,15 @@ previous    0.000000
 poutcome    0.000000
 -> varImpPlot(model_ran)
 ![rplot](https://user-images.githubusercontent.com/24644939/27388089-296c85ce-56b8-11e7-9abb-09138725a9db.png)
+
+-> From the above plot we remove the variable which have the highest importance,(pdays,previous,poutcome) 0 importance so we remove the variables from dataset to train the model
+-> Remove unimportant variables
+bank=bank[,-c(14,15,16,5,9,8)]
+## split the data for test and train 
+Trian 60% and Test 40% 
+-> Always training data must be more compared to test data
+# model building 
+-> cart model used to build the model because it work on both numerical and categorical data and imbalance data
+library(rpart)
+cart_model=rpart(y~.,data = train_data,method = "class")
+
