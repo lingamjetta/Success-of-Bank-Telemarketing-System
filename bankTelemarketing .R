@@ -53,7 +53,7 @@ cart_model=rpart(y~.,data = train_data,method = "class")
 fancyRpartPlot(cart_model)
 #check for the varimp
 varImp(cart_model)
-#age job education f=default balance loan day not important
+#age job education default balance loan day not important
 printcp(cart_model)
 plotcp(cart_model) # no over fitting  the model
 #predicting the model
@@ -75,7 +75,7 @@ printcp(cart_samp)
 cart_pred=predict(cart_samp,newdata = test_data,type = "class")
 table(cart_pred)age
 CrossTable(test_data$y,cart_pred)
-#build random forest
+#build glm model
 glm_smp=glm(y~.,data = ovrdata,family = "binomial")
 summary(glm_smp)
 pred_glm=predict(glm_smp,newdata=test_data,type="response")
