@@ -1,7 +1,7 @@
 # Success-of-Bank-Telemarketing-System
 This project related to direct marketing campaigns of a bank based on phone calls 
 ## Business understanding
-This Dataset is banking direct telemarketing campaigns bassed on the phone calls weather customer subscribe to product or not,
+This Dataset is banking direct telemarketing campaigns bassed on the phone calls whether customer subscribe to product or not,
 if the customer subscribed(yes),not(no).
 ## Terget data Predict subscribed or not (yes,no)
 ### Data exploration and Preprocessing
